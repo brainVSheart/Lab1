@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int N, i;
+  int N, i;
   while (1)
   {
     printf("Enter rounds:");
@@ -14,15 +14,15 @@ int main()
     {
       break;
     }
-      if (N>0)
+    if (N>0)
+    {
+      for(i=1;i<=N;i++)
       {
-        for(i=1;i<=N;i++)
-        {
-        printf("[%d] Hollo loop\n",i);
-        }
-      }else{
-        printf("Error\n");
+      printf("[%d] Hollo loop\n",i);
       }
+    }else{
+      printf("Error\n");
+    }
   }
    return 0;
 }
