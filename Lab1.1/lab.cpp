@@ -2,10 +2,10 @@
 int main()
 {
   int N, i;
-  while (1)
+  while(1)
   {
     printf("Enter rounds:");
-    if (scanf("%d", &N) != 1)
+    if(scanf("%d", &N) != 1)
     {
       printf("Error\n");
         return 1;
@@ -14,7 +14,7 @@ int main()
     {
       break;
     }
-    if (N>0)
+    if(N>0)
     {
       for(i=1;i<=N;i++)
       {
