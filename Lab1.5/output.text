@@ -1,0 +1,11 @@
+Enter rows & columns: 2
+2
+Data[1][1]: 1
+Data[1][2]: 1
+Data[2][1]: 1
+Data[2][2]: 1
+Rows = 2
+Columns = 2
+Matrix:
+1 1
+1 1
