@@ -10,7 +10,7 @@ void GetMatrix(int val[], int *r, int *c){
     }
 }
 int main(){
-    int data[1000];
+    int data[100];
     int rows, cols;
     int i, j;
     GetMatrix(data, &rows, &cols);
@@ -23,4 +23,5 @@ int main(){
         printf("\n");
     }   
     return 0;
+
 }
